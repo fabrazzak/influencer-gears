@@ -1,0 +1,94 @@
+ /* fotn family  link  */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+ /* common css */
+
+
+ body{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Roboto', sans-serif;
+ }
+ .container{
+     width: 1200px;
+     margin: auto;
+ }
+
+
+ /* Header section  */
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .toggle-btn {
+     display: none;
+ }
+ .toggle-btn .fa-bars{
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+  
+    
+}
+ .nav-title{
+     font-size: 22px;
+ }
+ .nav-menu-iteam {
+    display: flex;
+    }
+ .nav-menu-iteam li {
+     list-style: none;
+     margin-left: 25px;
+     padding: 10px;
+     
+ }
+ .nav-menu-iteam li a{
+     text-decoration: none;
+     font-size: 20px;
+     color: black;;
+ }
+ .nav-menu-iteam li a .fas {
+     font-size: 25px;
+
+ }
+ .cart-icon{
+     display: none;
+ }
+
+ /* media query  */
+ @media  only screen and ( max-width:640px) {
+  /* header section media query  Mobile version */
+
+
+  .navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.container {
+         width: 100%;
+     }
+.toggle-btn{
+    display: block;
+}
+.nav-title{
+    font-size: 18px;
+}
+.nav-menu{
+    display: none;
+}
+
+
+
+.cart-icon{
+        display:block;
+    }
+    .cart-icon .fas {
+        font-size: 35px;
+    }
+
+
+ }
