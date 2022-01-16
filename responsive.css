@@ -1,0 +1,186 @@
+
+
+
+  /* media query  */
+  @media  only screen and ( max-width: 1000px) {
+    /*  media query  Tab version */
+
+
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+      
+    }
+  
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .container {
+             width: 100%;
+             margin:auto;
+             text-align: center;
+         }
+    
+    .nav-title{
+        font-size: 15px;
+    }
+   
+    .nav-title{
+        font-size: 18px;
+    }
+    .nav-menu{
+        display: block;
+    }
+    
+    
+    .nav-menu-iteam li {
+       
+        margin-left: 10px;
+        padding: 5px;
+        
+    }
+    
+   
+        
+     /* influencer section  */
+    
+     .influencer{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        padding: 60px 0px;
+        grid-row-gap: 40px;
+       
+    }
+    .influencer h1{
+        font-size: 25px;
+    }
+    .influencer-img img{ 
+        width: 80%;
+        float:left;
+    
+    }
+    
+    
+    /* logos section  */
+    #logos {
+        display: block;
+    }
+    #logos img{
+        width: 60%;
+    }
+    /* collection section  */
+    
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+      
+    }
+    
+    /* contact section css  */
+    .contacts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    #contact img{
+        width: 85%;
+    }
+    .contacts .contact-form{
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+     }
+     
+
+
+
+
+ @media  only screen and ( max-width:640px) {
+    /* header section media query  Mobile version */
+  
+  
+    .navbar{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+  }
+  .container {
+           width: 100%;
+           margin:auto;
+           text-align: center;
+       }
+  .toggle-btn{
+      display: block;
+  }
+  .nav-title{
+      font-size: 18px;
+  }
+  .nav-menu{
+      display: none;
+  }
+  
+  
+  
+  .cart-icon{
+          display:block;
+      }
+      .cart-icon .fas {
+          font-size: 35px;
+      }
+   /* influencer section  */
+  
+   .influencer{
+      
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 60px 0px;
+      grid-row-gap: 40px;
+     
+  }
+  .influencer-img img{ 
+      width:100%;
+  
+  }
+  
+  
+  /* logos section  */
+  #logos {
+      display: none;
+  }
+  /* collection section  */
+  
+  .collection {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .collection img{
+      width: 100%;
+  }
+  
+  /* contact section css  */
+  .contacts{
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-gap: 40px;
+  }
+  #contact img{
+      width: 100%;
+  }
+  .contacts .contact-form{
+      text-align: left;
+  }
+  
+  
+  
+  
+  
+   }
+   
