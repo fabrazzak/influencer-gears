@@ -147,6 +147,9 @@
     margin: 0px;
     margin-bottom: 10px;
 }
+.collection-iteam img {
+  width: 100%;   
+}
 .collection-iteam h4{
     font-size: 22px;
     margin: 0 ;
